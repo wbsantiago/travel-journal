@@ -1,4 +1,5 @@
-import logoImg from '../assets/location-icon.svg'
+import logoImg from '../assets/world.svg'
+import './header.css'
 
 export default function Header() {
     return (

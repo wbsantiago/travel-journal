@@ -1,17 +1,22 @@
-import locationIcon from '../assets/world.svg'
+import locationIcon from '../assets/location-icon.svg'
+import './mainContent.css'
 
 export default function MainContent(props) {
     return (
         <div className="main--container">
-            <img src={props.imageUrl} alt="image of place" />
-            <div>
-                <span><img src={locationIcon} /></span>
-                <span>{props.location}</span>
+            <div 
+                className="main--card__image"
+                style={{
+                    backgroundImage: `url(${props.imageUrl})`
+                  }}
+            ></div>
+            <div className="main--content">
+                <span className="main--location__icon" ><img src={locationIcon} /></span>
+                <span className="main--location">{props.location}</span>
                 <a href="#" target="_blank" >View on Google Maps</a>
                 <h2>{props.title}</h2>
-                <span>{props.startDate}</span>
-                <span>{props.endDate}</span>
-                <p>{props.description}</p>
+                <span className='content--dates'>{props.startDate}</span> - <span className='content--dates'>{props.endDate}</span>
+                <p className="main--description">{props.description}</p>
             </div>
         </div>
     )

@@ -1,29 +1,9 @@
 :root {
     --bg-red: #F55A5A;
     --tx-white: #FFFFFF;
+    --tx-gray: #918E9B;
 }
 
 html {
     font-family: 'Inter', sans-serif;
-}
-
-nav {
-    background-color: var(--bg-red);
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header--logo__img {
-    width: 24px;
-    padding-right: 7px;
-}
-
-.header--logo {
-    color: var(--tx-white);
-    font-size: 14.46px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
 }
