@@ -1,4 +1,4 @@
-import logoImg from '../assets/fill-213.svg'
+import logoImg from '../assets/location-icon.svg'
 
 export default function Header() {
     return (
