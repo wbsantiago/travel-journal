@@ -17,7 +17,7 @@ export default [
         startDate: "23 Jul, 2021",
         endDate: "02 Ago, 2021",
         description: "Rio de Janeiro is a huge seaside city in Brazil, famed for its Copacabana and Ipanema beaches, 38m Christ the Redeemer statue atop Mount Corcovado and for Sugarloaf Mountain, a granite peak with cable cars to its summit.",
-        imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
+        imageUrl: "https://images.pexels.com/photos/13299171/pexels-photo-13299171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         id: 3,
@@ -27,6 +27,6 @@ export default [
         startDate: "23 Dez, 2021",
         endDate: "02 Jan, 2022",
         description: "Cancún, a Mexican city is known for its beaches, numerous resorts and nightlife. It’s composed of 2 distinct areas: the more traditional downtown area, El Centro, and Zona Hotelera, a long, beachfront strip of high-rise hotels, nightclubs, shops and restaurants.",
-        imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
+        imageUrl: "https://images.pexels.com/photos/1802255/pexels-photo-1802255.jpeg?auto=compress&cs=tinysrgb&w=1600"
     }
 ]

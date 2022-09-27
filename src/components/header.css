@@ -7,13 +7,13 @@ nav {
 }
 
 .header--logo__img {
-    width: 24px;
+    width: 28px;
     padding-right: 7px;
 }
 
 .header--logo {
     color: var(--tx-white);
-    font-size: 14.46px;
+    font-size: 16px;
     text-decoration: none;
     display: flex;
     align-items: center;
